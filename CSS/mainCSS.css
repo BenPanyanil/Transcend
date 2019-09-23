@@ -1,0 +1,207 @@
+/*FONTS*/
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Merriweather', serif;
+*/
+
+
+/*COLOR PALATE*/
+:root {
+    --light-teal: rgba(111,237,235,0.6);
+    --medium-teal: rgba(87,196,201,1);
+    --dark-teal: rgba(62,151,171,1);
+    --orange: rgba(227,134,91,1);
+    --light-magenta: rgba(224,202,230,0.6);
+    
+    --header-text: rgba(15,15,15,1);
+    --content-text: rgba(15,15,15,0.7);
+    
+    --small-text-05: rgba(255,255,255,0.5);
+    --small-text-1: rgba(255,255,255,1);
+    
+    --white: rgba(255,255,255,1);
+    --light-white: rgba(255,255,255,0.8);
+    
+    --line-stroke: rgba(0,0,0,0.1);
+}
+
+
+
+body {
+    padding: 0 20px;
+    margin: 0;
+}
+
+
+
+
+/*----------- LOGO AREA -------------*/
+
+.logo {       
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+}
+
+.site-logo img {
+    width: 103px;
+    height: 20px;
+    
+    margin-top: 48px;
+}
+
+.logo-decoration {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bluebox-logo {
+    position: absolute;
+    z-index: 8;
+    
+    width: 56px;
+    height: 56px;
+
+    background-color: var(--light-teal);
+}
+
+.pinkbox-logo {
+    position: absolute;
+    z-index: 8;
+    
+    width: 28px;
+    height: 37px;
+    
+    background-color: var(--light-magenta);
+    
+    left: 56px;
+    top: 56px;
+}
+
+
+/*--------------- NAVIGATION AND MENU -----------------*/
+
+
+.hamburger-menu img {
+    width: 30px;
+    height: 22px;
+    
+    position: absolute;
+    top: 48px;
+    right: 20px;
+    z-index: 8;
+    
+    cursor: pointer;
+}
+
+.navigation-menu {
+    display: none;
+}
+
+
+
+
+/*--------------------- HEADER TEXT ---------------------*/
+
+.header {
+    background-color: white;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+    height: 50vh;
+    width: 100%;
+}
+
+.header-container {
+    margin: 0 20px;
+    
+    position: absolute;
+    bottom: 0px;
+    
+}
+
+.main-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--header-text);
+}
+
+.header-line-break {
+    width: 81px;
+    height: 3px;
+    
+    background-color: var(--orange);
+}
+
+.main-header-body-text {
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+    color: var(--content-text);
+    line-height: 1.7rem;
+}
+
+
+/*-------------- HEADER IMAGE ------------*/
+.header-image {
+    margin-left: -20px;
+    
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    
+    background-image: url("header-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 50vh;
+    width: 100%;
+}
+
+.header-image-overlay {
+    margin-left: -20px;
+    
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    
+    background-color: rgba(0,0,0,0.4);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 50vh;
+    width: 100%;
+}
+
+
+.follow-us {
+    position: absolute;
+    left: 20px;
+    z-index: 5;
+}
+
+.follow-us ul {
+    list-style: none;
+    
+    padding: 0;
+}
+
+.follow-us li,lh {
+    margin: 21px 0;
+    
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
