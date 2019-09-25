@@ -8,14 +8,29 @@
 <!--     CSS-->    
     <link rel="stylesheet" href="CSS/CSSnew.css">
         
-<!--     JQUERY-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        
 <!--     FONTS-->
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300|Montserrat:300,400,400i,500,600&display=swap" rel="stylesheet">
     
 <!--     ICONS-->
     <script src="https://kit.fontawesome.com/b252621b2c.js" crossorigin="anonymous"></script>
+
+        
+<!--     JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+<!--    JQUERY ANIMATIONS    -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.hamburger-menu').click(function(){
+                $('.navigation-menu-panel').toggleClass('active');
+                $('.navigation-menu-layer').fadeToggle(200);
+            })
+            $('.exit-cross img').click(function(){
+                $('.navigation-menu-panel').toggleClass('active');
+                $('.navigation-menu-layer').fadeToggle(200);
+            })
+        })
+    </script>
     
 </head>
 <body>
