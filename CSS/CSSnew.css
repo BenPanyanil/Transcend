@@ -355,24 +355,19 @@ body {
 /*HERE STARTS THE MAIN CONTENT*/
 
 
-
-.who-we-are {
-    padding: 0 20px;
-    margin: 48px 0;
-}
-
-.who-we-are-label {
+/*ALL THE TEXT STYLINGS IN MAIN*/
+main h4 {
     font-family: 'Montserrat', sans-serif;
     color: var(--orange);
 }
 
-.who-we-are-header {
+main h2 {
     font-family: 'Montserrat', sans-serif;
     color: var(--header-text);
     line-height: 1.3em;
 }
 
-.who-we-are-content {
+main p {
     font-family: 'Merriweather', serif;
     color: var(--content-text);
     line-height: 1.9em;
@@ -380,5 +375,36 @@ body {
 }
 
 
+/*WHO WE ARE*/
+.who-we-are {
+    padding: 0 20px;
+    margin: 48px 0;
+}
+
+
+
+/*SEPARATOR IMAGE*/
+.separator-image {
+    background: plum;
+    height: 85px;
+    width: 100%;
+}
+
+
+.what-we-do {
+    padding: 0 20px;
+    margin: 48px 0;
+}
+
+.featured-works {
+    padding: 48px 20px;
+    margin: 48px 0;
+    
+    background-color: rgba(28,28,28,1);
+}
+
+.featured-works h2 {
+    color: white;
+}
 
 
