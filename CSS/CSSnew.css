@@ -36,6 +36,8 @@ body {
 
 
 /*---------------------------------------------*/
+/*/NAVIGATION*/
+
 
 /*NAVIGATION MENU*/
 .navigation-menu {
@@ -131,7 +133,7 @@ body {
 
 
 /*--------------------------------------------------*/
-
+/*HERE STARTS THE LANDING VIEW CONTENT*/
 
 
 
@@ -328,3 +330,34 @@ body {
 
 
 /*------------------------------------------------*/
+/*HERE STARTS THE MAIN CONTENT*/
+
+
+
+.who-we-are {
+    padding: 0 20px;
+    margin: 48px 0;
+}
+
+.who-we-are-label {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--orange);
+}
+
+.who-we-are-header {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--header-text);
+    line-height: 1.3em;
+}
+
+.who-we-are-content {
+    font-family: 'Merriweather', serif;
+    color: var(--content-text);
+    font-size: 0.85rem;
+    line-height: 1.9em;
+    margin-top: 30px;
+}
+
+
+
+
