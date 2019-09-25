@@ -322,6 +322,8 @@ body {
     position: absolute;
     top: 20px;
     right: 20px;
+    
+    cursor: pointer;
 }
 
 .scroll-down-button {
@@ -340,8 +342,6 @@ body {
     transform: translate(-50%,-50%);
     
     height: 20px;
-    
-    cursor: pointer;
 }
 
 .scroll-down-text {
