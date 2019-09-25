@@ -13,6 +13,8 @@ font-family: 'Merriweather', serif;
     --orange: rgba(227,134,91,1);
     --light-magenta: rgba(224,202,230,0.6);
     --menu-black:  rgba(28,28,28,1);
+    --menu-content-text: rgba(255,255,255,0.3);
+    --menu-content-icon: rgba(255,255,255,0.2);
     
     --header-text: rgba(15,15,15,1);
     --content-text: rgba(15,15,15,0.7);
@@ -33,34 +35,102 @@ body {
 }
 
 
+/*---------------------------------------------*/
+
 /*NAVIGATION MENU*/
-.exit-cross {
-    
-}
-
-
 .navigation-menu {
-    position: relative;
+    position: sticky;
     z-index: 11;
 }
 
 .navigation-menu-panel {
     position: absolute;
+    right: 0;
     
     height: 100vh;
     width: 216px;
     
-    padding-left: 26px;
-    
     background-color: var(--menu-black);
+}
+
+
+.exit-cross {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+.exit-cross img {
+    width: 20px;
+    height: 20px;
 }
 
 .navigation-menu-header {
     font-family: 'Montserrat', sans-serif;
     color: var(--orange);
+    font-size: 0.85em;
+    font-weight: 200;
+    margin: 20px;
+}
+
+.navigation-menu-panel ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+.navigation-menu-panel li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.li-line {
+    width: 113px;
+    height: 1px;
+    background-color: rgba(255,255,255,0.2);
+    
+    margin: 5px 0 10px 0;
+}
+
+.menu-text {
+    color: var(--menu-content-text);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    margin: 20px;
+}
+
+.socialmedia-menu-list {
+    width: 110px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialmedia-menu-list li {
+    display: inline;
+}
+
+.socialmedia-menu-list li i {
+    color: var(--menu-content-icon);
+}
+
+/*NAVIGATION MENU DARKENING LAYER*/
+
+.navigation-menu-layer {
+    position: absolute;
+    
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4);
 }
 
 
+/*--------------------------------------------------*/
 
 
 
@@ -73,8 +143,6 @@ body {
     
     position: relative;
     z-index: 0;
-    
-    background-color: plum;
 }
 
 
@@ -259,3 +327,4 @@ body {
 
 
 
+/*------------------------------------------------*/
