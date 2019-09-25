@@ -303,15 +303,16 @@ body {
     padding: 0;
     
     font-family: 'Montserrat', sans-serif;
-    color: white;
 }
 
 .follow-us-list h5 {
     margin: 20px 0 10px 0;
+    color: white;
 }
 
 .follow-us-list i {
     margin: 10px 0;
+    color: white;
 }
 
 
