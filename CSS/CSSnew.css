@@ -28,6 +28,10 @@ font-family: 'Merriweather', serif;
     --line-stroke: rgba(0,0,0,0.1);
 }
 
+* {
+        
+    box-sizing: border-box;
+}
 
 body {
     padding: 0;
