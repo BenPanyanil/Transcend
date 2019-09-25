@@ -140,7 +140,7 @@ body {
 /*NAVIGATION MENU DARKENING LAYER*/
 
 .navigation-menu-layer {
-    position: sticky;
+    position: absolute;
     
     display: none;
     
