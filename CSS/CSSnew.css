@@ -380,11 +380,13 @@ main p {
 /*SEPARATOR IMAGE*/
 .separator-image {
     background: plum;
-    height: 85px;
+    height: 90px;
     width: 100%;
 }
 
 
+
+/*WHAT WE DO*/
 .what-we-do {
     padding: 0 20px;
     margin: 48px 0;
