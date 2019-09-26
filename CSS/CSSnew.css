@@ -384,11 +384,12 @@ main p {
 /*STRATEGY SECTION -- GRID CONTAINER*/
 .strategy-section {
     box-sizing: border-box;
+    width: 100%;
     padding: 0 6vw;
     
     display: grid;
-    grid-template-rows: repeat(8, 71px);
-    grid-gap: 23px;
+    grid-template-rows: repeat(8, auto);
+    grid-gap: 12px;
 }
 
 #strategypath {
@@ -429,7 +430,7 @@ main p {
     justify-self: end;
 }
 
-
+/*-------------------------------*/
 
 
 /*STRATEGY SECTION BOXES*/
