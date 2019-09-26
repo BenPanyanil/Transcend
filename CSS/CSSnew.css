@@ -367,7 +367,7 @@ main p {
     font-family: 'Merriweather', serif;
     color: var(--content-text);
     line-height: 1.9em;
-    margin-top: 30px;
+    margin: 30px 0 0 0;
 }
 
 /*---------------------------------*/
@@ -532,7 +532,33 @@ main p {
     margin: 48px 0;
 }
 
+/*----------------------------------*/
+/*SERVICES SECTION / GRID CONTAINER*/
 
+.services-section {
+    box-sizing: border-box;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 20px;
+    
+    padding: 0 20px;
+}
+
+.services-section i {
+    color: var(--dark-teal);
+}
+
+.services-section h4 {
+    color: var(--header-text);
+
+}
+
+
+
+
+/*----------------------------------*/
+/*FEATURED-WORKS SECTION*/
 
 
 .featured-works {
@@ -546,4 +572,39 @@ main p {
     color: white;
 }
 
+/*FEATURED WORKS PROJECTS CONTAINER*/
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+    margin: 40px 0;
+}
 
+.projects img {
+    width: 100%;
+    display: block;
+
+}
+
+.project5,.project6 {
+    display: none;
+}
+
+/*LOAD MORE BUTTON*/
+.load-more-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.load-more-btn {
+    display: flex;
+    align-items: center;
+}
+
+.load-more-flex h2 {
+    color: white;
+}
+
+.load-more-flex img {
+    height: 20px;
+}
