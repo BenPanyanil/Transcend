@@ -540,9 +540,9 @@ main p {
     width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-row-gap: 20px;
+    grid-gap: 20px;
     
-    padding: 0 40px;
+    padding: 0 34px;
 }
 
 .services-section i {
@@ -599,6 +599,9 @@ main p {
 .load-more-btn {
     display: flex;
     align-items: center;
+    
+    background-color: rgba(28,28,28,1);
+    border: none;
 }
 
 .load-more-flex h2 {
