@@ -267,7 +267,7 @@ body {
 
 /*HEADER IMAGE / LOWER HALF OF LANDING VIEW*/
 .header-image-content {
-    background-image: url(/images/header-img.jpg);
+    background-image: url(../images/header-img.jpg);
     background-position: center;
     background-size: cover;
     
