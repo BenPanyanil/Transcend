@@ -375,7 +375,7 @@ main p {
 /*WHO WE ARE*/
 .who-we-are {
     padding: 0 20px;
-    margin: 48px 0;
+    margin: 48px 0 22px 0;
 }
 
 
@@ -515,7 +515,7 @@ main p {
     height: 100px;
     width: 100%;
     
-    margin-top: 64px;
+    margin-top: 48px;
 }
 
 .separator-image-overlay {
@@ -577,7 +577,7 @@ main p {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     
-    margin: 40px 0;
+    margin: 30px 0;
 }
 
 .projects img {
@@ -608,3 +608,10 @@ main p {
 .load-more-flex img {
     height: 20px;
 }
+
+
+
+
+/*-------------------------------------*/
+/*CLIENTS-SECTION STARTS HERE*/
+
