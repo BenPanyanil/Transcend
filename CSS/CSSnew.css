@@ -26,6 +26,8 @@ font-family: 'Merriweather', serif;
     --light-white: rgba(255,255,255,0.8);
     
     --line-stroke: rgba(0,0,0,0.1);
+    
+    --overlay: rgba(0,0,0,0.4);
 }
 
 
@@ -139,7 +141,7 @@ body {
     
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0,0,0,0.4);
+    background-color: var(--overlay);
 }
 
 
@@ -278,7 +280,7 @@ body {
 }
 
 .header-image-overlay {
-    background-color: rgba(0,0,0,0.4);
+    background-color: var(--overlay);
     
     height: 100%;
     width: 100%;
@@ -379,17 +381,64 @@ main p {
 
 /*----------------------------------*/
 
-/*STRATEGY SECTION*/
+/*STRATEGY SECTION -- GRID CONTAINER*/
+.strategy-section {
+    padding: 0 6vw;
+    
+    display: grid;
+    grid-template-rows: repeat(8, 71px);
+    grid-gap: 23px;
+}
+
+#strategypath {
+    grid-row: 1/9;
+    grid-column: 1/2;
+    
+    background: url(../images/strategypath-mobile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*DIV PLACEMENT IN GRID*/
+#define-box {
+    grid-row: 1;
+    grid-column: 1/2;
+}
+
+#design-box {
+    grid-row: 3;
+    grid-column: 1/2;
+    
+    justify-self: end;
+    margin-right: 20px;
+}
+
+#build-box {
+    grid-row: 5;
+    grid-column: 1/2;
+    
+    margin-left: 16px;
+}
+
+#launch-box {
+    grid-row: 7;
+    grid-column: 1/2;
+    
+    justify-self: end;
+}
+
+
 
 
 /*STRATEGY SECTION BOXES*/
-.strategy-section .strategy-box {
+.strategy-box {
     box-sizing: border-box;
     
     background-color: white;
     
     width: 208px;
-    height: 161px;
+    height: 162px;
 
     padding: 24px 32px;
 
@@ -398,7 +447,7 @@ main p {
 
 
 /*STRATEGY SECTION HEADER ELEMENTS*/
-.strategy-section .box-header-container {
+.box-header-container {
     display: flex;
     height: 40px;
     align-items: center;
@@ -433,7 +482,7 @@ main p {
 
 
 /*STRATEGY SECTION CONTENT TEXT*/
-.strategy-section .box-content p {
+.box-content p {
     width: 143px;
     height: 50px;
     
@@ -457,11 +506,21 @@ main p {
 
 /*SEPARATOR IMAGE*/
 .separator-image {
-    background: plum;
-    height: 90px;
+    background-image: url("../images/separator-img.jpg");
+    background-position: top;
+    background-size: cover;
+    
+    height: 100px;
     width: 100%;
+    
+    margin-top: 64px;
 }
 
+.separator-image-overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
 
 /*----------------------------------*/
 
