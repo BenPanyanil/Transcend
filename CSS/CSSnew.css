@@ -383,6 +383,7 @@ main p {
 
 /*STRATEGY SECTION -- GRID CONTAINER*/
 .strategy-section {
+    box-sizing: border-box;
     padding: 0 6vw;
     
     display: grid;
@@ -394,7 +395,7 @@ main p {
     grid-row: 1/9;
     grid-column: 1/2;
     
-    background: url(../images/strategypath-mobile.svg);
+    background: url(../images/strategypath-transparent-mobile.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
