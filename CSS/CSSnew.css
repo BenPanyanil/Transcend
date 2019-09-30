@@ -628,15 +628,62 @@ main p {
     margin: 30px 0;
 }
 
-.projects img {
+.projects {
+    position: relative;
+    
+    background-position: center;
+    background-size: cover;
+    height: 300px;
     width: 100%;
-    display: block;
-
 }
 
+/*ALL PROJECTS */
+.project1 {
+    background-image: url("../images/portfolio/fuji.jpg");
+}
+.project2 {
+    background-image: url("../images/portfolio/lamp.jpg");
+}
+.project3 {
+    background-image: url("../images/portfolio/liberty.jpg");
+}
+.project4 {
+    background-image: url("../images/portfolio/shutterbug.jpg");
+}
+.project5 {
+    background-image: url("../images/portfolio/woodcraft.jpg");
+}
+.project6 {
+    background-image: url("../images/portfolio/salad.jpg");
+}
+
+
+/*OVERLAY SHADOW */
+.overlay {
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*PROJECT CONTAINER H3*/
+.projects-container h3 {
+    
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-shadow: rgba(0,0,0,0.3);
+}
+
+/*PROJECTS THAT ARE NOT DISPLAYED IN MOBILE PHONE*/
 .project5,.project6 {
     display: none;
 }
+
 
 /*LOAD MORE BUTTON*/
 .load-more-flex {
