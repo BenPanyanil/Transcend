@@ -269,7 +269,7 @@ body {
 
 /*HEADER IMAGE / LOWER HALF OF LANDING VIEW*/
 .header-image-content {
-    background-image: url(../images/header-img.jpg);
+    background-image: url(../images/backgrounds/header-img.jpg);
     background-position: center;
     background-size: cover;
     
@@ -396,7 +396,7 @@ main p {
     grid-row: 1/9;
     grid-column: 1/2;
     
-    background: url(../images/strategypath-transparent-mobile.svg);
+    background: url(../images/backgrounds/strategypath-transparent-mobile.svg);
     background-position: center;
     background-repeat: no-repeat;
 
@@ -557,7 +557,7 @@ main p {
 
 /*SEPARATOR IMAGE*/
 .separator-image {
-    background-image: url("../images/separator-img.jpg");
+    background-image: url("../images/backgrounds/separator-img.jpg");
     background-position: top;
     background-size: cover;
     
@@ -628,6 +628,25 @@ main p {
     margin: 30px 0;
 }
 
+
+
+/*----------------------------------*/
+
+/*PROJECT OVERLAY */
+.overlay {
+    background: rgba(0,0,0,0.65);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+/*    overlay header*/
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+/*CLOSED PROJECT BACKGROUNDS */
 .projects {
     position: relative;
     
@@ -636,55 +655,117 @@ main p {
     height: 300px;
     width: 100%;
 }
-
-/*ALL PROJECTS */
-.project1 {
+#project1 {
     background-image: url("../images/portfolio/fuji.jpg");
 }
-.project2 {
+#project2 {
     background-image: url("../images/portfolio/lamp.jpg");
 }
-.project3 {
+#project3 {
     background-image: url("../images/portfolio/liberty.jpg");
 }
-.project4 {
+#project4 {
     background-image: url("../images/portfolio/shutterbug.jpg");
 }
-.project5 {
+#project5 {
     background-image: url("../images/portfolio/woodcraft.jpg");
 }
-.project6 {
+#project6 {
     background-image: url("../images/portfolio/salad.jpg");
 }
 
 
-/*OVERLAY SHADOW */
-.overlay {
-    background-color: rgba(0,0,0,0.5);
+
+/*OPEN PROJECTS*/
+.projects-open {
+    position: absolute;
     height: 100%;
     width: 100%;
-    position: absolute;
     
+    display: none;
+}
+
+/*OPENENED PROJECTS BACKGROUNDS*/
+.projects-open-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+    background-position: center;
+    
+    display: none;
+}
+
+/*OPENEDED PROJECT BACKGROUNDS*/
+#project1-open-bg {
+    background-image: url("../images/portfolio/fuji.jpg");
+}
+#project2-open-bg {
+    background-image: url("../images/portfolio/lamp.jpg");
+}
+#project3-open-bg {
+    background-image: url("../images/portfolio/liberty.jpg");
+}
+#project4-open-bg {
+    background-image: url("../images/portfolio/shutterbug.jpg");
+}
+#project5-open-bg {
+    background-image: url("../images/portfolio/woodcraft.jpg");
+}
+#project6-open-bg {
+    background-image: url("../images/portfolio/salad.jpg");
+}
+
+
+/* OPEN PROJECT TEXT */
+.projects-open h5 {    
+    font-family: 'Montserrat', sans-serif;
+    color: var(--orange);
+    padding: 20px;
+    margin: 0;
+}
+
+.projects-open p {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--header-text);
+    font-weight: 700;
+    
+    padding: 10px 20px;
+    margin: 0;
+}
+
+
+/*PROJECT LINK*/
+.dig-deeper {
+    background-color: var(--header-text);
+    width: 120px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    position: absolute;
+    bottom: 40px;
+    right: 0;
 }
 
-
-/*PROJECT CONTAINER H3*/
-.projects-container h3 {
-    
+.dig-deeper a {
+    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    text-shadow: rgba(0,0,0,0.3);
 }
 
+
+/*---------------------------------*/
+
+
 /*PROJECTS THAT ARE NOT DISPLAYED IN MOBILE PHONE*/
-.project5,.project6 {
+#project5,#project6 {
     display: none;
 }
 
 
+/*----------------------------------*/
 /*LOAD MORE BUTTON*/
 .load-more-flex {
     display: flex;
