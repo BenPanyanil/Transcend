@@ -542,7 +542,7 @@ main p {
     color: var(--content-text);
     font-size: 0.9rem;
     
-    transition: width .2s, height .2s;
+    transition: width .3s, height .3s;
 }
 
 .dots-more {
