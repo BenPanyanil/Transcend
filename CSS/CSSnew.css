@@ -629,21 +629,43 @@ main p {
 }
 
 
-
 /*----------------------------------*/
 
-/*PROJECT OVERLAY */
+/*PROJECT OVERLAY AND ANIMATION */
 .overlay {
-    background: rgba(0,0,0,0.65);
+    background: rgba(0,0,0,0.75);
     height: 100%;
     width: 100%;
     position: absolute;
     
-/*    overlay header*/
+/*    overlay header position*/
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    
+    transition: 0.2s
 }
+
+#project1-overlay.active {
+    background: rgba(0,0,0,0.2);
+}
+#project2-overlay.active {
+    background: rgba(0,0,0,0.2);
+}
+#project3-overlay.active {
+    background: rgba(0,0,0,0.2);
+}
+#project4-overlay.active {
+    background: rgba(0,0,0,0.2);
+}
+#project5-overlay.active {
+    background: rgba(0,0,0,0.2);
+}
+#project6-overlay.active {
+    background: rgba(0,0,0,0.2);
+}
+
+
 
 
 /*CLOSED PROJECT BACKGROUNDS */
@@ -676,81 +698,41 @@ main p {
 
 
 
-/*OPEN PROJECTS*/
-.projects-open {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    
-    display: none;
-}
-
-/*OPENENED PROJECTS BACKGROUNDS*/
-.projects-open-bg {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    
-    background-position: center;
-    
-    display: none;
-}
-
-/*OPENEDED PROJECT BACKGROUNDS*/
-#project1-open-bg {
-    background-image: url("../images/portfolio/fuji.jpg");
-}
-#project2-open-bg {
-    background-image: url("../images/portfolio/lamp.jpg");
-}
-#project3-open-bg {
-    background-image: url("../images/portfolio/liberty.jpg");
-}
-#project4-open-bg {
-    background-image: url("../images/portfolio/shutterbug.jpg");
-}
-#project5-open-bg {
-    background-image: url("../images/portfolio/woodcraft.jpg");
-}
-#project6-open-bg {
-    background-image: url("../images/portfolio/salad.jpg");
-}
-
-
-/* OPEN PROJECT TEXT */
-.projects-open h5 {    
-    font-family: 'Montserrat', sans-serif;
-    color: var(--orange);
-    padding: 20px;
-    margin: 0;
-}
-
-.projects-open p {
-    font-family: 'Montserrat', sans-serif;
-    color: var(--header-text);
-    font-weight: 700;
-    
-    padding: 10px 20px;
-    margin: 0;
-}
-
-
 /*PROJECT LINK*/
 .dig-deeper {
     background-color: var(--header-text);
-    width: 120px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
     position: absolute;
-    bottom: 40px;
     right: 0;
+    bottom: 40px;
+    overflow: hidden;
+    width: 0px;
+    
+    transition: 0.3s;
+    transition-delay: 0.2s;
 }
 
-.dig-deeper a {
-    text-decoration: none;
+#dd1.active {
+    width: 120px;
+}
+#dd2.active {
+    width: 120px;
+}
+#dd3.active {
+    width: 120px;
+}
+#dd4.active {
+    width: 120px;
+}
+#dd5.active {
+    width: 120px;
+}
+#dd6.active {
+    width: 120px;
+}
+
+.inner-box {
+    width: 120px;
+    padding: 13px;
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
