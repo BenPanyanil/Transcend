@@ -258,7 +258,7 @@
                 <div class="projects" id="project1">
                                                        
                     <div class="overlay" id="project1-overlay">
-                        <h2 id="project1-name">Chairium.co Website</h2>         
+                        <h2 id="project1-name">Chairium Website</h2>         
                     </div>
 
                     <div class="dig-deeper" id="dd1">   
@@ -454,17 +454,9 @@
                 $('#define-text').toggleClass('active');
                 $('#define-dots').toggle();
 //                --------------------------                
-                $('#design-box').removeClass('active');
-                $('#design-text').removeClass('active');
-                $('#design-dots').show();
-                
-                $('#build-box').removeClass('active');
-                $('#build-text').removeClass('active');
-                $('#build-dots').show();
-                
-                $('#launch-box').removeClass('active');
-                $('#launch-text').removeClass('active');
-                $('#launch-dots').show();
+                $('#design-box,#build-box,#launch-box').removeClass('active');
+                $('#design-text,#build-text,#launch-text').removeClass('active');
+                $('#design-dots,#launch-dots,#build-dots').show();
             })
             
             $('#design-box').click(function(){
@@ -472,17 +464,9 @@
                 $('#design-text').toggleClass('active');
                 $('#design-dots').toggle();
 //                --------------------------
-                $('#define-box').removeClass('active');
-                $('#define-text').removeClass('active');
-                $('#define-dots').show();
-                
-                $('#build-box').removeClass('active');
-                $('#build-text').removeClass('active');
-                $('#build-dots').show();
-                
-                $('#launch-box').removeClass('active');
-                $('#launch-text').removeClass('active');
-                $('#launch-dots').show();
+                $('#define-box,#build-box,#launch-box').removeClass('active');
+                $('#define-text,#build-text,#launch-text').removeClass('active');
+                $('#define-dots,#build-dots,#launch-dots').show();
             })
             
             $('#build-box').click(function(){
@@ -490,17 +474,9 @@
                 $('#build-text').toggleClass('active');
                 $('#build-dots').toggle();
 //                --------------------------               
-                $('#design-box').removeClass('active');
-                $('#design-text').removeClass('active');
-                $('#design-dots').show();     
-                
-                $('#define-box').removeClass('active');
-                $('#define-text').removeClass('active');
-                $('#define-dots').show();
-                
-                $('#launch-box').removeClass('active');
-                $('#launch-text').removeClass('active');
-                $('#launch-dots').show();
+                $('#design-box,#define-box,#launch-box').removeClass('active');
+                $('#design-text,#define-text,#launch-text').removeClass('active');
+                $('#design-dots,#define-dots,#launch-dots').show();     
             })
             
             $('#launch-box').click(function(){
@@ -508,17 +484,9 @@
                 $('#launch-text').toggleClass('active');
                 $('#launch-dots').toggle();
 //                --------------------------
-                $('#design-box').removeClass('active');
-                $('#design-text').removeClass('active');
-                $('#design-dots').show();               
-                
-                $('#define-box').removeClass('active');
-                $('#define-text').removeClass('active');
-                $('#define-dots').show();
-                
-                $('#build-box').removeClass('active');
-                $('#build-text').removeClass('active');
-                $('#build-dots').show();                
+                $('#design-box,#define-box,#build-box').removeClass('active');
+                $('#design-text,#define-text,#build-text').removeClass('active');
+                $('#design-dots,#define-dots,#build-dots').show();                           
             })
             
             
