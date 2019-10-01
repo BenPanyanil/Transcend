@@ -269,7 +269,7 @@ body {
 
 /*HEADER IMAGE / LOWER HALF OF LANDING VIEW*/
 .header-image-content {
-    background-image: url(../images/backgrounds/header-img.jpg);
+    background-image: url(../images/backgrounds/header-img-mobile.jpg);
     background-position: center;
     background-size: cover;
     
@@ -647,22 +647,22 @@ main p {
 }
 
 #project1-overlay.active {
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.1);
 }
 #project2-overlay.active {
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.1);
 }
 #project3-overlay.active {
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.1);
 }
 #project4-overlay.active {
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.1);
 }
 #project5-overlay.active {
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.1);
 }
 #project6-overlay.active {
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.1);
 }
 
 
@@ -677,23 +677,27 @@ main p {
     height: 300px;
     width: 100%;
 }
+.projects h2 {
+    text-align: center;
+}
+
 #project1 {
-    background-image: url("../images/portfolio/fuji.jpg");
+    background-image: url("../images/portfolio-photos/pink.png");
 }
 #project2 {
-    background-image: url("../images/portfolio/lamp.jpg");
+    background-image: url("../images/portfolio-photos/black.jpg");
 }
 #project3 {
-    background-image: url("../images/portfolio/liberty.jpg");
+    background-image: url("../images/portfolio-photos/green.jpg");
 }
 #project4 {
-    background-image: url("../images/portfolio/shutterbug.jpg");
+    background-image: url("../images/portfolio-photos/blue.jpg");
 }
 #project5 {
-    background-image: url("../images/portfolio/woodcraft.jpg");
+    background-image: url("../images/portfolio-photos/red.jpg");
 }
 #project6 {
-    background-image: url("../images/portfolio/salad.jpg");
+    background-image: url("../images/portfolio-photos/yellow.jpg");
 }
 
 

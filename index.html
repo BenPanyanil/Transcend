@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
 <!--     CSS-->    
-    <link rel="stylesheet" href="CSS/CSSnew.css">
+    <link rel="stylesheet" href="CSS/css-styling.css">
         
 <!--     FONTS-->
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300|Montserrat:300,400,400i,500,600&display=swap" rel="stylesheet">
@@ -258,7 +258,7 @@
                 <div class="projects" id="project1">
                                                        
                     <div class="overlay" id="project1-overlay">
-                        <h2 id="project1-name">Chairium Website</h2>         
+                        <h2 id="project1-name">Popfa Website</h2>         
                     </div>
 
                     <div class="dig-deeper" id="dd1">   
@@ -271,7 +271,7 @@
                 <div class="projects" id="project2">
                   
                     <div class="overlay" id="project2-overlay">
-                        <h2 id="project2-name">UX design for Lambu</h2>         
+                        <h2 id="project2-name">UX design for Braun</h2>         
                     </div>
 
                     <div class="dig-deeper" id="dd2">   
@@ -283,7 +283,7 @@
                 <div class="projects" id="project3">
                    
                     <div class="overlay" id="project3-overlay">
-                        <h2 id="project3-name">Beseat Co. Brand</h2>         
+                        <h2 id="project3-name">Greener Co. Brand</h2>         
                     </div>
 
                     <div class="dig-deeper" id="dd3">   
@@ -295,7 +295,7 @@
                 <div class="projects" id="project4">
                                    
                     <div class="overlay" id="project4-overlay">
-                        <h2 id="project4-name">Zabando Photography</h2>         
+                        <h2 id="project4-name">BaanMai Mobile App</h2>         
                     </div>
 
                     <div class="dig-deeper" id="dd4">   
@@ -539,6 +539,29 @@
                 $('#dd2,#dd3,#dd4,#dd5,#dd1,#project2-overlay,#project3-overlay,#project4-overlay,#project5-overlay,#project1-overlay').removeClass('active');
                 $('#project2-name,#project3-name,#project4-name,#project5-name,#project1-name').fadeIn();
             })
+            
+            
+//            ---------------------------- PROJECT-SECTION TEXT SPIT
+            var myText = 'lorem ipsum sdfsadfdsafdfdsff sdfsdafsdf';
+            var myArray = myText.split("");
+            
+            var loopTimer;
+            
+            function frameLooper(){
+                if(myArray.length > 0) {
+                    document.getElementById("type-text").innerHTML += myArray.shift();
+                } else {
+                    clearTimeout(loopTimer);
+                    return false;
+                }
+                loopTimer = setTimeout('frameLooper()',50);
+            }
+            
+            
+            
+            
+            
+            
         })
     </script>
 </body>
