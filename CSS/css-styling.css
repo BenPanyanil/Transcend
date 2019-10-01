@@ -633,7 +633,7 @@ main p {
 
 /*PROJECT OVERLAY AND ANIMATION */
 .overlay {
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.5);
     height: 100%;
     width: 100%;
     position: absolute;
