@@ -658,7 +658,7 @@ main p {
 
 /*PROJECT OVERLAY AND ANIMATION */
 .overlay {
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.68);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -685,16 +685,16 @@ main p {
     background: rgba(0,0,0,0.0);
 }
 #project3-overlay.active {
-    background: rgba(0,0,0,0.15);
+    background: rgba(0,0,0,0.1);
 }
 #project4-overlay.active {
-    background: rgba(0,0,0,0.15);
+    background: rgba(0,0,0,0.1);
 }
 #project5-overlay.active {
-    background: rgba(0,0,0,0.15);
+    background: rgba(0,0,0,0.1);
 }
 #project6-overlay.active {
-    background: rgba(0,0,0,0.15);
+    background: rgba(0,0,0,0.1);
 }
 
 
