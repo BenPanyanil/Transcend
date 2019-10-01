@@ -95,48 +95,7 @@ $(document).ready(function(){
     })
     
     
-//            ---------------------------- PROJECT-SECTION TEXT-TYPE SPIT
-    var myText1 = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, sunt.';
-    var myArray1 = myText1.split("");
-    
-    var myText2 = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.';
-    var myArray2 = myText2.split("");
-    
-    var myText3 = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores culpa, est.';
-    var myArray3 = myText3.split("");
-    
-    var myText4 = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit.';
-    var myArray4 = myText4.split("");
-    
-    var myText5 = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, sunt.';
-    var myArray5 = myText5.split("");
-    
-    var myText6 = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ipsam ullam illo corporis porro.';
-    var myArray6 = myText6.split("");
-    
-    var loopTimer;
-    
-    
-//      TEXT SPIT FUNCTION
-    function frameLooper(myArray){
-        if(myArray.length > 0) {
-            document.getElementById("type-text").innerHTML += myArray.shift();
-        } else {
-            clearTimeout(loopTimer);
-            return false;
-        }
-        loopTimer = setTimeout(() => frameLooper(myArray),34);
-    }
-    
-//      TEXT SPIT JQUERY EVENT
-    $('#project1').click(function(){
-        frameLooper(myArray1);
-    })
-    
-    $('#project2').click(function(){
-        frameLooper(myArray2);
-    })
-    
+//            ---------------------------- PROJECT-SECTION OPENED TEXT
     
     
     
