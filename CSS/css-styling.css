@@ -766,12 +766,12 @@ main p {
     border: none;
 }
 
-.load-more-flex h2 {
+.load-more-flex h3 {
     color: white;
 }
 
 .load-more-flex img {
-    height: 20px;
+    height: 14px;
 }
 
 
