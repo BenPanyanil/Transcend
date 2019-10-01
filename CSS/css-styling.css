@@ -679,22 +679,22 @@ main p {
 
 /*OVERLAY ACTIVE*/
 #project1-overlay.active {
-    background: rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.15);
 }
 #project2-overlay.active {
-    background: rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.0);
 }
 #project3-overlay.active {
-    background: rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.15);
 }
 #project4-overlay.active {
-    background: rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.15);
 }
 #project5-overlay.active {
-    background: rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.15);
 }
 #project6-overlay.active {
-    background: rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.15);
 }
 
 
