@@ -636,21 +636,12 @@ main p {
 
 
 /*---------------------------------*/
+/*PROJECTS OPENED CONTENT COMMON TEXT STYLING*/
 
 .project-open {
     position: absolute;
     width: 100%;
     display: none;
-}
-
-/*PROJECTS OPENED CONTENT COMMON TEXT STYLING*/
-#type-header1,
-#type-header2,
-#type-header3,
-#type-header4,
-#type-header5,
-#type-header6 {
-    opacity: 0;
 }
 
 #type-text1,
