@@ -958,3 +958,110 @@ main p {
 .swiper-button-next,.swiper-button-prev {
     display: none;
 }
+
+
+
+/*----------------------------------------*/
+/*STATISTICS STARTS HERE*/
+
+/*---------------------------------------*/
+/*FOOTER STARTS HERE*/
+
+
+footer {
+    padding: 50px 20px 20px 20px;
+    
+    margin-top: 48px;
+    background-color: #191919;
+}
+
+footer h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--orange);
+}
+
+footer h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.footer-linebreak {
+    width: 81px;
+    height: 3px;
+    
+    background-color: var(--orange);
+    margin: 30px 0;
+}
+
+
+.email h4 {
+    color: white;
+    margin: 12px 0;
+}
+
+.email-linebreak {
+    width: 64px;
+    height: 1px;
+    background-color: rgba(255,255,255,0.2);
+}
+
+.email p {
+    color: rgba(255,255,255,0.5);
+    font-family: 'Montserrat', sans-serif;
+    margin: 12px 0;
+}
+
+.where-to-find-us {
+    margin-top: 54px;
+}
+
+.where-to-find-us p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+}
+
+.footer-follow-us {
+    margin-top: 48px;
+}
+.footer-link-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 200px
+}
+
+.footer-link-flex i {
+    color: white;
+}
+
+
+form .email {
+    width: 100%;
+    height: 40px;
+    margin: 30px 0 12px 0;
+    border: none;
+    background-color: rgba(13,13,13,1);
+}
+
+form button {
+    width: 100%;
+    background-color: var(--orange);
+    border: none;
+}
+
+.subscribe-btn h3 {
+    color: white;
+}
+
+.copyright {
+    margin: 30px 0;
+    
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255,255,255,0.5);
+    font-size: 0.8rem;
+}
+
+.copyright span {
+    color: white;
+}
