@@ -255,9 +255,9 @@ body {
 }
 
 .main-header-body-text {
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
     color: var(--content-text);
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
 }
 
@@ -364,7 +364,8 @@ main h2 {
 }
 
 main p {
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
     color: var(--content-text);
     line-height: 1.9em;
     margin: 25px 0 0 0;
