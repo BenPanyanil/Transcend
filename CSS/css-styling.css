@@ -1,7 +1,7 @@
 /*FONTS*/
 /*
 font-family: 'Montserrat', sans-serif;
-font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
 */
 
 
@@ -255,9 +255,8 @@ body {
 }
 
 .main-header-body-text {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: var(--content-text);
-    font-weight: 300;
     line-height: 1.5em;
 }
 
@@ -364,7 +363,7 @@ main h2 {
 }
 
 main p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: var(--content-text);
     line-height: 1.8em;
     margin: 25px 0 0 0;
