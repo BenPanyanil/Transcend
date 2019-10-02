@@ -673,13 +673,13 @@ main p {
 
 /*BRAUN OVERLAY*/
 #project2-overlay {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.53);
 }
 
 
 /*OVERLAY ACTIVE*/
 #project1-overlay.active {
-    background: rgba(0,0,0,0.15);
+    background: rgba(0,0,0,0.17);
 }
 #project2-overlay.active {
     background: rgba(0,0,0,0.0);
