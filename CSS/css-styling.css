@@ -375,7 +375,7 @@ main p {
 /*WHO WE ARE*/
 .who-we-are {
     padding: 0 20px;
-    margin: 60px 0 22px 0;
+    margin: 80px 0 30px 0;
 }
 
 
@@ -386,7 +386,7 @@ main p {
     box-sizing: border-box;
     width: 100%;
     padding: 0 6vw;
-    margin-top: 40px;
+    margin: 60px 0 80px 0;
     
     display: grid;
     grid-template-rows: repeat(8, auto);
@@ -582,7 +582,7 @@ main p {
 /*WHAT WE DO*/
 .what-we-do {
     padding: 0 20px;
-    margin: 60px 0;
+    margin: 80px 0 40px 0;
 }
 
 /*----------------------------------*/
@@ -616,7 +616,7 @@ main p {
 
 .featured-works {
     padding: 48px 20px;
-    margin: 60px 0;
+    margin: 80px 0;
     
     background-color: rgba(28,28,28,1);
     
@@ -970,9 +970,9 @@ main p {
 
 
 footer {
-    padding: 50px 20px 20px 20px;
+    padding: 80px 20px 20px 20px;
     
-    margin-top: 60px;
+    margin-top: 80px;
     background-color: #191919;
 }
 
@@ -985,6 +985,7 @@ footer h2 {
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
+
 
 .footer-linebreak {
     width: 81px;
@@ -1013,7 +1014,7 @@ footer h2 {
 }
 
 .where-to-find-us {
-    margin-top: 54px;
+    margin-top: 80px;
 }
 
 .where-to-find-us p {
@@ -1024,7 +1025,7 @@ footer h2 {
 }
 
 .footer-follow-us {
-    margin-top: 48px;
+    margin-top: 80px;
 }
 .footer-link-flex {
     display: flex;
@@ -1063,7 +1064,7 @@ form button {
 }
 
 .copyright {
-    margin: 30px 0;
+    margin: 60px 0;
     
     font-family: 'Montserrat', sans-serif;
     color: rgba(255,255,255,0.5);
