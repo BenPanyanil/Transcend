@@ -643,15 +643,20 @@ main p {
     padding: 0 20px;
     margin: 20px 0 0 0;
 }
+#project2-open h6 {
+    color: var(--header-text);
+}
 
 .project-open p {
     font-family: 'Merriweather', serif;
     color: var(--content-text);
     padding: 0 20px;
     margin: 5px 0;
-    font-weight: 700;
+    font-weight: 600;
 }
-
+#type-text2 {
+    color: white;
+}
 
 
 /*----------------------------------*/
