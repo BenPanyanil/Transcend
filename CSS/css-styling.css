@@ -549,6 +549,7 @@ main p {
     font-family: 'Montserrat', sans-serif;
     color: var(--medium-teal);
     font-weight: 700;
+    font-size: 0.9rem;
     letter-spacing: 1px;
     
 }
