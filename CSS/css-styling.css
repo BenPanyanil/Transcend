@@ -668,13 +668,14 @@ main p {
 */
 
 
-.project-open h6 {
+.project-open h5 {
     font-family: 'Montserrat', sans-serif;
     color: white;
     padding: 0 20px;
     margin: 20px 0 5px 0;
+    opacity: 0.9;
 }
-#project2-open h6 {
+#project2-open h5 {
     color: var(--header-text);
 }
 
