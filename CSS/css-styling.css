@@ -615,6 +615,8 @@ main p {
     margin: 48px 0;
     
     background-color: rgba(28,28,28,1);
+    
+
 }
 
 .featured-works h2 {
@@ -628,14 +630,52 @@ main p {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin: 30px 0;
+    
+    width: 100%;
 }
 
 
 /*---------------------------------*/
-/*PROJECTS OPENED CONTENT COMMON TEXT STYLING*/
+
 .project-open {
     position: absolute;
+    width: 100%;
+    display: none;
 }
+
+/*PROJECTS OPENED CONTENT COMMON TEXT STYLING*/
+#type-header1,
+#type-header2,
+#type-header3,
+#type-header4,
+#type-header5,
+#type-header6 {
+    opacity: 0;
+}
+
+#type-text1,
+#type-text2,
+#type-text3,
+#type-text4,
+#type-text5,
+#type-text6 {
+    position: relative;
+    left: -10%;
+    
+    opacity: 0;
+}
+
+/*
+#type-text1.active,
+#type-text2.active,
+#type-text3.active,
+#type-text4.active,
+#type-text5.active,
+#type-text6.active {
+    left: 0;
+}
+*/
+
 
 .project-open h6 {
     font-family: 'Montserrat', sans-serif;
@@ -751,24 +791,15 @@ main p {
     transition-delay: 0.2s;
 }
 
-#dd1.active {
-    width: 120px;
-}
-#dd2.active {
-    width: 120px;
-}
-#dd3.active {
-    width: 120px;
-}
-#dd4.active {
-    width: 120px;
-}
-#dd5.active {
-    width: 120px;
-}
+#dd1.active, 
+#dd2.active, 
+#dd3.active, 
+#dd4.active, 
+#dd5.active, 
 #dd6.active {
     width: 120px;
 }
+
 
 .inner-box {
     width: 120px;

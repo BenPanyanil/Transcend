@@ -95,9 +95,18 @@ $(document).ready(function(){
     })
     
     
-//            ---------------------------- PROJECT-SECTION OPENED TEXT
+//            ---------------------------- PROJECT-SECTION OPENED TEXT ANIMATION
     
-    
+    $('#project1').click(function(){
+        $('#project1-open').fadeToggle('fast');
+        $('#type-header1').delay(400).animate({
+            opacity: '1'
+        },400);
+        $('#type-text1').delay(100).animate({
+            left: '0',
+            opacity: '1'
+        },600);
+    })
     
     
     
