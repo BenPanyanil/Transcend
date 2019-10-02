@@ -60,7 +60,7 @@ $(document).ready(function(){
 
 //                ------------------------      content animation   
         $('#project1-open').fadeToggle('fast');
-        $('#type-text1').delay(100).animate({
+        $('#type-text1').delay(200).animate({
             left: '0',
             opacity: '1'
         },600);
@@ -79,7 +79,7 @@ $(document).ready(function(){
 
 //                ------------------------     content animation    
         $('#project2-open').fadeToggle('fast');
-        $('#type-text2').delay(100).animate({
+        $('#type-text2').delay(200).animate({
             left: '0',
             opacity: '1'
         },600);
@@ -97,7 +97,7 @@ $(document).ready(function(){
 
 //                ------------------------      content animation   
         $('#project3-open').fadeToggle('fast');
-        $('#type-text3').delay(100).animate({
+        $('#type-text3').delay(200).animate({
             left: '0',
             opacity: '1'
         },600);
@@ -116,7 +116,7 @@ $(document).ready(function(){
 
 //                ------------------------      content animation   
         $('#project4-open').fadeToggle('fast');
-        $('#type-text4').delay(100).animate({
+        $('#type-text4').delay(200).animate({
             left: '0',
             opacity: '1'
         },600);
@@ -135,7 +135,7 @@ $(document).ready(function(){
 
 //                ------------------------      content animation   
         $('#project5-open').fadeToggle('fast');
-        $('#type-text5').delay(100).animate({
+        $('#type-text5').delay(200).animate({
             left: '0',
             opacity: '1'
         },600);
@@ -154,7 +154,7 @@ $(document).ready(function(){
 
 //                ------------------------      content animation   
         $('#project6-open').fadeToggle('fast');
-        $('#type-text6').delay(100).animate({
+        $('#type-text6').delay(200).animate({
             left: '0',
             opacity: '1'
         },600);

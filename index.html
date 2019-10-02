@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <title>Transcend Studio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
+<!--   SWIPER CSS   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+      
 <!--     CSS-->    
     <link rel="stylesheet" href="CSS/css-styling.css">
-        
+       
 <!--     FONTS-->
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300|Montserrat:300,400,400i,500,600&display=swap" rel="stylesheet">
     
 <!--     ICONS-->
-    <script src="https://kit.fontawesome.com/b252621b2c.js" crossorigin="anonymous"></script>
-
- 
-    
+    <script src="https://kit.fontawesome.com/b252621b2c.js" crossorigin="anonymous"></script>    
 </head>
 <body>
    
@@ -377,10 +377,84 @@
             
             <div class="clients-linebreak"></div>
             
-            <div class="clients-carousel">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide" id="slide-1">
+                        <div class="profile-grid">
+                          
+                           <div class="profile-inner-grid">
+                               <div class="profile-pic" id="p-pic1"></div>
+                                <div class="profile-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                                <div class="profile-name">
+                                    <h4 class="name">Clayton Little</h4>
+                                    <p class="company">CEO, Google</p>
+                                </div>
+                           </div>
+                           <div class="profile-inner-grid">
+                               <div class="profile-pic" id="p-pic2"></div>
+                                <div class="profile-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p></div>
+                                <div class="profile-name">
+                                    <h4 class="name">Matt Sanders</h4>
+                                    <p class="company">CEO, Microsoft</p>
+                                </div>
+                           </div>  
+                                             
+                        </div>                   
+                    </div>    
+                                    
+                    <div class="swiper-slide" id="slide-2">
+                        <div class="profile-grid">
+                          
+                           <div class="profile-inner-grid">
+                               <div class="profile-pic" id="p-pic3"></div>
+                                <div class="profile-text"><p>Lorem ipsum dolor sit amet, consectetur.</p></div>
+                                <div class="profile-name">
+                                    <h4 class="name">Clayton Little</h4>
+                                    <p class="company">CEO, Google</p>
+                                </div>
+                           </div>
+                           <div class="profile-inner-grid">
+                               <div class="profile-pic" id="p-pic4"></div>
+                                <div class="profile-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, architecto ut atque quam labore sequi eligendi.</p></div>
+                                <div class="profile-name">
+                                    <h4 class="name">Matt Sanders</h4>
+                                    <p class="company">CEO, Microsoft</p>
+                                </div>
+                           </div>  
+                                             
+                        </div>                 
+                    </div>   
+                                     
+                    <div class="swiper-slide" id="slide-3">
+                        <div class="profile-grid">
+                          
+                           <div class="profile-inner-grid">
+                               <div class="profile-pic" id="p-pic5"></div>
+                                <div class="profile-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptatibus facilis ex.</p></div>
+                                <div class="profile-name">
+                                    <h4 class="name">Clayton Little</h4>
+                                    <p class="company">CEO, Google</p>
+                                </div>
+                           </div>
+                           <div class="profile-inner-grid">
+                               <div class="profile-pic" id="p-pic1"></div>
+                                <div class="profile-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae mollitia explicabo, fugit.</p></div>
+                                <div class="profile-name">
+                                    <h4 class="name">Matt Sanders</h4>
+                                    <p class="company">CEO, Microsoft</p>
+                                </div>
+                           </div>  
+                                             
+                        </div>                 
+                    </div>
+                                        
+                </div>
                 
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
                 
-                
+                <div class="swiper-pagination"></div>
             </div>
             
         </div>
@@ -460,6 +534,24 @@
 
 <!--     JQUERY-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!--SWIPER JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+
+<!-- INITIALIZE SWIPER -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 20,
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+        pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+
 <!--    MY JAVASCRIPT-->
     <script src="JavaScript/myScript.js"></script>
 </body>
