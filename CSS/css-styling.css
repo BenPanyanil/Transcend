@@ -443,8 +443,6 @@ main p {
 #build-box {
     grid-row: 5;
     grid-column: 1/2;
-    
-    margin-left: 16px;
 }
 
 #build-box.active {
@@ -463,6 +461,7 @@ main p {
     grid-row: 7;
     grid-column: 1/2;
     
+    margin-right: 20px;
     justify-self: end;
 }
 
@@ -547,7 +546,7 @@ main p {
 
 .dots-more {
     font-family: 'Montserrat', sans-serif;
-    color: var(--medium-teal);
+    color: var(--dark-teal);
     font-weight: 700;
     font-size: 0.9rem;
     letter-spacing: 1px;
@@ -598,7 +597,7 @@ main p {
 }
 
 .services-section i {
-    color: var(--dark-teal);
+    color: var(--medium-teal);
 }
 
 .services-section h4 {
