@@ -367,7 +367,7 @@ main p {
     font-family: 'Merriweather', serif;
     color: var(--content-text);
     line-height: 1.9em;
-    margin: 30px 0 0 0;
+    margin: 40px 0 0 0;
 }
 
 /*---------------------------------*/
@@ -375,7 +375,7 @@ main p {
 /*WHO WE ARE*/
 .who-we-are {
     padding: 0 20px;
-    margin: 48px 0 22px 0;
+    margin: 60px 0 22px 0;
 }
 
 
@@ -386,6 +386,7 @@ main p {
     box-sizing: border-box;
     width: 100%;
     padding: 0 6vw;
+    margin-top: 40px;
     
     display: grid;
     grid-template-rows: repeat(8, auto);
@@ -564,10 +565,10 @@ main p {
     background-position: top;
     background-size: cover;
     
-    height: 100px;
+    height: 120px;
     width: 100%;
     
-    margin-top: 48px;
+    margin-top: 60px;
 }
 
 .separator-image-overlay {
@@ -581,7 +582,7 @@ main p {
 /*WHAT WE DO*/
 .what-we-do {
     padding: 0 20px;
-    margin: 48px 0;
+    margin: 60px 0;
 }
 
 /*----------------------------------*/
@@ -615,7 +616,7 @@ main p {
 
 .featured-works {
     padding: 48px 20px;
-    margin: 48px 0;
+    margin: 60px 0;
     
     background-color: rgba(28,28,28,1);
     
@@ -834,7 +835,7 @@ main p {
 /*-------------------------------------*/
 /*CLIENTS-SECTION STARTS HERE*/
 .clients-section {
-    margin: 48px 0;
+    margin: 60px 0;
 }
 
 .clients-header h2 {
@@ -971,7 +972,7 @@ main p {
 footer {
     padding: 50px 20px 20px 20px;
     
-    margin-top: 48px;
+    margin-top: 60px;
     background-color: #191919;
 }
 
