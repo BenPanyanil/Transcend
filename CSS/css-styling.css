@@ -639,7 +639,7 @@ main p {
 
 .project-open h6 {
     font-family: 'Montserrat', sans-serif;
-    color: var(--orange);
+    color: white;
     padding: 0 20px;
     margin: 20px 0 0 0;
 }
@@ -649,7 +649,7 @@ main p {
     color: var(--content-text);
     padding: 0 20px;
     margin: 5px 0;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 
@@ -731,7 +731,6 @@ main p {
 #project6 {
     background-image: url("../images/portfolio-photos/yellow.jpg");
 }
-
 
 
 /*PROJECT LINK*/
