@@ -656,14 +656,28 @@ main p {
     opacity: 0;
 }
 
-.project-open h5 {
+/*
+#type-text1.active,
+#type-text2.active,
+#type-text3.active,
+#type-text4.active,
+#type-text5.active,
+#type-text6.active {
+    left: 0;
+}
+*/
+
+
+.project-open h6 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
     color: white;
     padding: 0 20px;
     margin: 20px 0 5px 0;
-    opacity: 0.86;
+    
+    opacity: 0.9;
 }
-#project2-open h5 {
+#project2-open h6 {
     color: var(--header-text);
 }
 
