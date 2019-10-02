@@ -672,18 +672,19 @@ main p {
     font-family: 'Montserrat', sans-serif;
     color: white;
     padding: 0 20px;
-    margin: 20px 0 0 0;
+    margin: 20px 0 5px 0;
 }
 #project2-open h6 {
     color: var(--header-text);
 }
 
 .project-open p {
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
     color: var(--content-text);
     padding: 0 20px;
     margin: 5px 0;
     font-weight: 600;
+    line-height: 1.5rem;
 }
 #type-text2 {
     color: white;
