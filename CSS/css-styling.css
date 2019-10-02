@@ -547,8 +547,10 @@ main p {
 
 .dots-more {
     font-family: 'Montserrat', sans-serif;
-    color: var(--content-text);
-    font-size: 0.9rem;
+    color: var(--medium-teal);
+    font-weight: 700;
+    letter-spacing: 1px;
+    
 }
 
 
