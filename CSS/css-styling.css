@@ -182,6 +182,7 @@ body {
 .logo-decoration{
     position: relative;
     z-index: 9;
+    display: none;
 }
 
 .bluebox-logo {
