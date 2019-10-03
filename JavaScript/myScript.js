@@ -164,10 +164,6 @@ $(document).ready(function(){
     })
     
     
-//            ---------------------------- PROJECT-SECTION OPENED TEXT ANIMATION
-
-    
-    
     
     
 })
