@@ -182,9 +182,46 @@ $(document).ready(function(){
 
     
 //            ----------------------- JQUERY WAYPOINTS & COUNTER-UP
-
     
+    
+    function frameLooper(id, ms, timeoutId) {
+        if(Number(document.getElementById(id).firstChild.textContent) < Number(document.getElementById(id).firstChild.dataset.count)) {
+            document.getElementById(id).firstChild.textContent = Number(document.getElementById(id).firstChild.textContent) + 1
+        } else {
+            clearTimeout(timeoutId);
+            return false;
+        }
+        loopTimer = setTimeout(() => frameLooper(id, timeoutId, ms) , ms);
+    }
+    
+    
+    var $awards = $('.awards-received');
+    var $coffee = $('.cups-of-coffee');
+    var $projects = $('.statistic-projects-completed');
+    var $clients = $('.happy-clients');
+    
+    
+    $awards.waypoint(function(){
+          frameLooper("awards-counter", 70);                   
+    }, {offset: '60%'});     
+    
+    
+    $coffee.waypoint(function(){
+          frameLooper("coffee-counter", 0);                   
+    }, {offset: '60%'}); 
+    
+    
+    $projects.waypoint(function(){
+          frameLooper("projects-counter", 70);                   
+    }, {offset: '60%'}); 
+    
+    
+    $clients.waypoint(function(){
+          frameLooper("clients-counter", 70);                   
+    }, {offset: '60%'}); 
+//    frameLooper("coffee-counter", 0);
+
     
     
 })
-
+ 
