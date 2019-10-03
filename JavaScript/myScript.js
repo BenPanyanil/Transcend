@@ -166,5 +166,37 @@ $(document).ready(function(){
     
     
     
+    
+    
+//            ----------------------- INITIALIZE SWIPER
+    var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 20,
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+        pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+
+    
+//            ----------------------- JQUERY WAYPOINTS
+    
+    
+    
+    var $awardsCounter = $('#awards-counter');
+    
+    $awardsCounter.waypoint(function(){
+        console.log('Waypoint!');
+    }, { offset: '60%'});
+    
+    
+    
+    
+    
+    
+    
+    
 })
 
