@@ -13,6 +13,7 @@ font-family: 'Open Sans', sans-serif;
     --orange: rgba(227,134,91,1);
     --light-magenta: rgba(224,202,230,0.6);
     --bright-magenta: rgba(224,202,230,0.9);
+    --dark-magenta: rgba(198,137,181,0.8);
     --menu-black:  rgba(28,28,28,1);
     --menu-content-text: rgba(255,255,255,0.3);
     --menu-content-icon: rgba(255,255,255,0.2);
@@ -598,7 +599,7 @@ main p {
 }
 
 .services-section i {
-    color: var(--medium-teal);
+    color: var(--dark-magenta);
 }
 
 .services-section h4 {
