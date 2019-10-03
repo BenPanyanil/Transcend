@@ -182,7 +182,6 @@ body {
 .logo-decoration{
     position: relative;
     z-index: 9;
-    display: none;
 }
 
 .bluebox-logo {
@@ -1047,7 +1046,7 @@ footer {
 
 footer h4 {
     font-family: 'Montserrat', sans-serif;
-    color: var(--orange);
+    color: var(--light-magenta);
 }
 
 footer h2 {
@@ -1060,7 +1059,7 @@ footer h2 {
     width: 81px;
     height: 3px;
     
-    background-color: var(--orange);
+    background-color: var(--light-magenta);
     margin: 30px 0;
 }
 
@@ -1124,7 +1123,7 @@ form .email {
 
 form button {
     width: 100%;
-    background-color: var(--orange);
+    background-color: var(--light-magenta);
     border: none;
 }
 
