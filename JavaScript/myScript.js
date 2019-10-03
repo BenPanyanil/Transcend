@@ -212,12 +212,12 @@ $(document).ready(function(){
     
     
     $projects.waypoint(function(){
-          frameLooper("projects-counter", 70);                   
+          frameLooper("projects-counter", 60);                   
     }, {offset: '60%'}); 
     
     
     $clients.waypoint(function(){
-          frameLooper("clients-counter", 70);                   
+          frameLooper("clients-counter", 64);                   
     }, {offset: '60%'}); 
 //    frameLooper("coffee-counter", 0);
 
