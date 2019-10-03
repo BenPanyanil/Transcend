@@ -1008,8 +1008,10 @@ main p {
 
 .statistics-container h1 {
     font-size: 3.8rem;
+    font-weight: 600;
     text-align: center;
     margin: 0;
+    
 }
 
 .statistics-linebreak {
@@ -1023,6 +1025,7 @@ main p {
 .statistics-container p {
     color: rgba(255,255,255,0.8);
     font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
     font-size: 0.9rem;
     text-align: center;
     margin: 0;
