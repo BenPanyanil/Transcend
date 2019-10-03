@@ -181,20 +181,8 @@ $(document).ready(function(){
     });
 
     
-//            ----------------------- JQUERY WAYPOINTS
-    
-    
-    
-    var $awardsCounter = $('#awards-counter');
-    
-    $awardsCounter.waypoint(function(){
-        console.log('Waypoint!');
-    }, { offset: '60%'});
-    
-    
-    
-    
-    
+//            ----------------------- JQUERY WAYPOINTS & COUNTER-UP
+
     
     
     
