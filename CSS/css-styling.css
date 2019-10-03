@@ -1007,8 +1007,8 @@ main p {
 
 
 .statistics-container h1 {
-    font-size: 4rem;
-    font-weight: 600;
+    font-size: 5rem;
+    font-weight: 500;
     text-align: center;
     margin: 0;
 }
@@ -1022,9 +1022,9 @@ main p {
 }
 
 .statistics-container p {
-    color: rgba(255,255,255,0.8);
+    color: rgba(255,255,255,0.6);
     font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
+    font-weight: 100;
     font-size: 0.9rem;
     text-align: center;
     margin: 0;
