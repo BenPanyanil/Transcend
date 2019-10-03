@@ -184,15 +184,14 @@ $(document).ready(function(){
 //            ----------------------- JQUERY WAYPOINTS & COUNTER-UP
     
     
-    function frameLooper(id, ms, timeoutId) {
-        if(Number(document.getElementById(id).firstChild.textContent) < Number(document.getElementById(id).firstChild.dataset.count)) {
-            document.getElementById(id).firstChild.textContent = Number(document.getElementById(id).firstChild.textContent) + 1
-        } else {
-            clearTimeout(timeoutId);
-            return false;
-        }
-        loopTimer = setTimeout(() => frameLooper(id, timeoutId, ms) , ms);
-    }
+    function frameLooper(id, targetNumber, totalSeconds, currentNumber) {
+ currentNumber = currentNumber + targetNumber / (totalSeconds * 60)
+ if (currentNumber > targetNumber) currentNumber = targetNumber
+ if (Number(document.getElementById(id).firstChild.textContent) < targetNumber) {
+   document.getElementById(id).firstChild.textContent = Math.round(currentNumber)
+   requestAnimationFrame(() => frameLooper(id, targetNumber, totalSeconds, currentNumber));
+ }
+}
     
     
     var $awards = $('.awards-received');
@@ -202,22 +201,22 @@ $(document).ready(function(){
     
     
     $awards.waypoint(function(){
-          frameLooper("awards-counter", 70);                   
+          frameLooper("awards-counter", 56, 1.5, 0);                   
     }, {offset: '60%'});     
     
     
     $coffee.waypoint(function(){
-          frameLooper("coffee-counter", 0);                   
+          frameLooper("coffee-counter", 1388, 1.5, 0);                   
     }, {offset: '60%'}); 
     
     
     $projects.waypoint(function(){
-          frameLooper("projects-counter", 60);                   
+          frameLooper("projects-counter", 89, 1.5, 0);                   
     }, {offset: '60%'}); 
     
     
     $clients.waypoint(function(){
-          frameLooper("clients-counter", 64);                   
+          frameLooper("clients-counter", 85, 1.5, 0);                   
     }, {offset: '60%'}); 
 //    frameLooper("coffee-counter", 0);
 
