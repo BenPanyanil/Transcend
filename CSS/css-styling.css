@@ -596,7 +596,7 @@ main p {
     box-sizing: border-box;
     width: 100%;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     
     padding: 0 6vw;
@@ -604,13 +604,15 @@ main p {
 
 .services-section div {
     margin: 20px 0;
+    text-align: center;
 }
 
 .services-section i {
-    color: var(--dark-teal);
+    color: rgba(15,15,15,0.4);
 }
 
 .services-section h4 {
+    font-size: 0.9rem;
     color: var(--header-text);
 
 }
@@ -767,6 +769,7 @@ main p {
 }
 #project4 {
     background-image: url("../images/portfolio-photos/blue.jpg");
+    background-position: bottom;
 }
 #project5 {
     background-image: url("../images/portfolio-photos/red.jpg");
@@ -1240,7 +1243,7 @@ form button {
 @media only screen and (min-width: 660px) {
     
     .header-container {
-        margin-bottom: 10vh;
+        margin-bottom: 6.4vh;
         width: 530px;
         left: 50%;
         transform: translate(-50%,0);
