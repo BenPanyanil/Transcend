@@ -596,6 +596,10 @@ main p {
     padding: 0 20px;
 }
 
+.services-section div {
+    margin: 20px 0;
+}
+
 .services-section i {
     color: var(--dark-teal);
 }
