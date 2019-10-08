@@ -264,6 +264,7 @@ body {
 
 /*HEADER PANEL BACKGROUND / UPPER HALF OF LANDING VIEW*/
 .header-panel-background {
+    box-sizing: border-box;
     background-color: white;
     position: relative;
     height: 50%;
@@ -1289,7 +1290,7 @@ form button {
     
     .main-header {
         font-size: 3.2rem;
-        margin: 5px 0;
+        margin: 10px 0;
     }
     
     .header-line-break {
@@ -1300,7 +1301,7 @@ form button {
     .main-header-body-text {
         font-size: 1.28rem;
         display: inline-block;
-        margin-left: 20px;
+        margin-left: 40px;
     }
     
     .strategy-section {
@@ -1346,3 +1347,92 @@ form button {
 }
 
 
+/*DESKTOP VIEW*/
+@media only screen and (min-width: 1400px) {
+    
+/*    VERTICAL LINES*/
+    .vertical-lines {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .vertical-lines-1 {
+        width: 1px;
+        height: 100vh; 
+        background-color: rgba(0,0,0,0.12);
+        position: absolute;
+        left: 216px;
+    }
+
+    .vertical-lines-2 {
+        width: 1px;
+        height: 100vh; 
+        background-color: rgba(0,0,0,0.12);
+        position: absolute;
+        right: 216px;
+    }
+    
+/*    LOGO POSITION*/
+    .logo {
+        left: 242px;
+        top: 58px;
+
+    }
+    
+    .bluebox-logo {
+        left: 160px;
+        top: 41px;
+    }
+    
+    .pinkbox-logo {
+        left: 217px;
+        top: 97px;
+    }
+    
+
+/*    HAMBURGER-MENU POSITION*/
+    .hamburger-menu {
+        top: 58px;
+        right: 138px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .hamburger-menu img {
+        width: 30px;
+    }
+    
+    .hamburger-menu span {
+        margin-left: 23px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+    
+    
+/*    HEADER PANEL*/
+    .header-container {
+        width: 831px;
+        height: 526px;
+        padding: 185px 112px 68px 96px;
+        margin: 0;
+        background-color: white;
+        border-right: 1px solid rgba(0,0,0,0.12);
+        
+        position: absolute;
+        top: 0;
+        left: 216px;
+        transform: none;
+        z-index: 1;
+    }
+
+    .main-header {
+        font-size: 3.8rem;        
+        margin-bottom: 20px;
+    }
+    
+    .main-header-body-text {
+        font-size: 1.4rem;
+    }
+
+}
