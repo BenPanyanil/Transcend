@@ -1,5 +1,18 @@
 $(document).ready(function(){
     
+    
+    
+//    --------------------------- NAVBAR INTERACTION
+    
+    
+    
+    var zero = 0;
+    $(window).on('scroll', function(){
+        $('.navbar').toggleClass('hide', $(window).scrollTop() > zero);
+        zero = $(window).scrollTop();
+    })
+    
+    
 //        ------------------------------ HAMBURGER-MENU ANIMATION
     $('.hamburger-menu').click(function(){
         $('.navigation-menu-panel').toggleClass('active');
