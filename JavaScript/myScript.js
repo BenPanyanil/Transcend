@@ -3,16 +3,16 @@ $(document).ready(function(){
     
     
 //    --------------------------- NAVBAR INTERACTION
-    $(".navbar").hide(); //hide your div initially
+    $(".navbar").hide(); 
     
     var topOfOthDiv = $(".who-we-are").offset().top;
     
     $(window).scroll(function() {
-        if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
-            $(".navbar").fadeIn(450); //reached the desired point -- show div
+        if($(window).scrollTop() > topOfOthDiv) { 
+            $(".navbar").fadeIn(450); 
         }
         else{
-            $(".navbar").fadeOut(450); //else above the desired point -- hide div
+            $(".navbar").fadeOut(450);
         }
     });
     
@@ -24,8 +24,10 @@ $(document).ready(function(){
     })
     
     
+    
+    
 //        ------------------------------ HAMBURGER-MENU ANIMATION
-    $('.hamburger-menu').click(function(){
+    $('.hamburger-menu,.navbar-menu').click(function(){
         $('.navigation-menu-panel').toggleClass('active');
         $('.navigation-menu-layer').fadeToggle(200);
     })

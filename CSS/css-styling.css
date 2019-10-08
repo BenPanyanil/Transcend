@@ -86,6 +86,7 @@ body {
 }
 
 .navigation-menu-panel {
+    z-index: 2;
     position: fixed;
     top: 0;
     right: -216px;
@@ -172,8 +173,8 @@ body {
 /*NAVIGATION MENU DARKENING LAYER*/
 
 .navigation-menu-layer {
-    position: absolute;
-    
+    position: fixed;
+    z-index: 1;
     display: none;
     
     width: 100vw;
