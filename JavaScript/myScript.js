@@ -12,7 +12,7 @@ $(document).ready(function(){
             $(".navbar").fadeIn(450); 
         }
         else{
-            $(".navbar").fadeOut(450);
+            $(".navbar").fadeOut(100);
         }
     });
     
