@@ -3,7 +3,18 @@ $(document).ready(function(){
     
     
 //    --------------------------- NAVBAR INTERACTION
+    $(".navbar").hide(); //hide your div initially
     
+    var topOfOthDiv = $(".who-we-are").offset().top;
+    
+    $(window).scroll(function() {
+        if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
+            $(".navbar").fadeIn(450); //reached the desired point -- show div
+        }
+        else{
+            $(".navbar").fadeOut(450); //else above the desired point -- hide div
+        }
+    });
     
     
     var zero = 0;
