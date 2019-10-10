@@ -326,7 +326,7 @@ body {
 
 /*HEADER IMAGE / LOWER HALF OF LANDING VIEW*/
 .header-image-content {
-    background-image: url(../images/backgrounds/header-img-mobile.jpg);
+    background-image: url(../images/backgrounds/header-img.jpg);
     background-position: center;
     background-size: cover;
     
