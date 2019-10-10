@@ -39,40 +39,58 @@ $(document).ready(function(){
     
 //            ---------------------- STRATEGY-SECTION-ANIMATIONS
     $('#define-box').click(function(){
+        if ($(window).width() >= 520 ) {
+            return;
+        } else {
         $(this).toggleClass('active');
-        $('#define-text').toggleClass('active');
-        $('#define-dots').toggle();
-//                --------------------------                
-        $('#design-box,#build-box,#launch-box').removeClass('active');
-        $('#design-text,#build-text,#launch-text').removeClass('active');
-        $('#design-dots,#launch-dots,#build-dots').show();
+            $('#define-text').toggleClass('active');
+            $('#define-dots').toggle();
+    //                --------------------------                
+            $('#design-box,#build-box,#launch-box').removeClass('active');
+            $('#design-text,#build-text,#launch-text').removeClass('active');
+            $('#design-dots,#launch-dots,#build-dots').show();    
+        }
+        
     })
     $('#design-box').click(function(){
-        $(this).toggleClass('active');
-        $('#design-text').toggleClass('active');
-        $('#design-dots').toggle();
-//                --------------------------
-        $('#define-box,#build-box,#launch-box').removeClass('active');
-        $('#define-text,#build-text,#launch-text').removeClass('active');
-        $('#define-dots,#build-dots,#launch-dots').show();
+        if ($(window).width() >= 520 ) {
+            return;
+        } else {
+            $(this).toggleClass('active');
+            $('#design-text').toggleClass('active');
+            $('#design-dots').toggle();
+    //                --------------------------
+            $('#define-box,#build-box,#launch-box').removeClass('active');
+            $('#define-text,#build-text,#launch-text').removeClass('active');
+            $('#define-dots,#build-dots,#launch-dots').show();            
+        }
+
     })
     $('#build-box').click(function(){
-        $(this).toggleClass('active');
-        $('#build-text').toggleClass('active');
-        $('#build-dots').toggle();
-//                --------------------------               
-        $('#design-box,#define-box,#launch-box').removeClass('active');
-        $('#design-text,#define-text,#launch-text').removeClass('active');
-        $('#design-dots,#define-dots,#launch-dots').show();     
+        if ($(window).width() >= 520 ) {
+            return;
+        } else {
+            $(this).toggleClass('active');
+            $('#build-text').toggleClass('active');
+            $('#build-dots').toggle();
+    //                --------------------------               
+            $('#design-box,#define-box,#launch-box').removeClass('active');
+            $('#design-text,#define-text,#launch-text').removeClass('active');
+            $('#design-dots,#define-dots,#launch-dots').show();  
+        }
     })
     $('#launch-box').click(function(){
-        $(this).toggleClass('active');
-        $('#launch-text').toggleClass('active');
-        $('#launch-dots').toggle();
-//                --------------------------
-        $('#design-box,#define-box,#build-box').removeClass('active');
-        $('#design-text,#define-text,#build-text').removeClass('active');
-        $('#design-dots,#define-dots,#build-dots').show();                           
+        if ($(window).width() >= 520 ) {
+            return;
+        } else {
+            $(this).toggleClass('active');
+            $('#launch-text').toggleClass('active');
+            $('#launch-dots').toggle();
+    //                --------------------------
+            $('#design-box,#define-box,#build-box').removeClass('active');
+            $('#design-text,#define-text,#build-text').removeClass('active');
+            $('#design-dots,#define-dots,#build-dots').show();    
+        }
     })
     
     
