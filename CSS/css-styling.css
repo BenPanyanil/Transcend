@@ -248,7 +248,10 @@ body {
 }
 
 
-
+/*DESKTOP NAV*/
+.desktop-nav {
+    display: none;
+}
 
 /*HAMBURGER MENU*/
 .hamburger-menu {
@@ -1432,8 +1435,8 @@ form button {
 /*    HEADER PANEL*/
     .header-container {
         width: 831px;
-        height: 526px;
-        padding: 185px 112px 68px 96px;
+        height: 58vh;
+        padding: 18vh 120px 68px 120px;
         margin: 0;
         background-color: white;
         border-right: 1px solid rgba(0,0,0,0.12);
@@ -1454,5 +1457,52 @@ form button {
         font-size: 1.4rem;
     }
     
+    .follow-us {
+        top: 40px;
+        left: auto;
+        width: 70px;
+        right: 122px;
+    }
+    
+    .scroll-down {
+        top: 80%;
+        display: flex;
+        align-items: center;
+        width: 166px;
+        right: 25px;
+        
+    }
+
+    .scroll-down-text {
+        display: block;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.75rem;
+        font-weight: 500;
+        margin-left: 25px;
+    }
+    
+    .desktop-nav {
+        display: block;
+        position: absolute;
+        top: 45px;
+        right: 316px;
+        width: 320px;
+        z-index: 2;
+    }
+    
+    .desktop-nav ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        list-style: none;
+        padding: 0;
+    }
+    
+    .desktop-nav li {
+        font-family: 'Montserrat', sans-serif;
+        color: var(--header-text);
+        display: inline;
+    }
 
 }
